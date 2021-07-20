@@ -1,0 +1,482 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*GLOBAL*/
+
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+	line-height: 20px;
+
+}
+
+.contenu{
+	width: 70%;
+	margin: auto;
+
+}
+
+
+
+
+
+header{
+	height: 20vh;
+}
+
+
+
+h1{
+	font-size: 1em;
+	height: 10vh;
+	font-family:Staatliches ;
+	padding-top: 8vh;
+}
+
+
+
+nav img{
+	height: 8vh;
+	flex: 1;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	flex: 10;
+	
+
+}
+
+li{
+	border-right: 1px solid black;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+
+}
+
+
+a:hover{
+		font-size: 1.2em;
+}
+
+
+
+/*INTRO*/
+
+.intro{
+	background-image: url(img/one-piece-background.jpg);
+	background-size: cover;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+
+}
+
+.intro .contenu{
+	height: 50vh ;
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.4);
+
+	
+
+}
+
+.intro h2{
+
+}
+
+.intro p{
+	margin:0 50px ;
+	text-align: center;
+}
+
+
+
+
+.intro input{
+	background-color: rgba(0, 0, 0, 0.7); 
+	color: white;
+	border-radius: 7px;
+}
+
+.intro button{
+	background-color: #ffd48f;
+	color: #d34e27;
+	border-radius: 7px;
+	font-weight: bold;
+}
+
+/*scans*/
+
+.scans{
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #ffe6c1;
+}
+
+.scans .contenu{
+	height: 45vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+
+}
+
+
+.scan-b{
+	display: flex;
+	flex-direction: column;
+	height: 30vh;
+	
+
+}
+
+
+
+.scan-1016{
+background-image: url(img/scan-1016.jpg);
+background-size: cover;
+background-position: center;
+flex: 1;
+
+}
+
+.scan-1015{
+background-image: url(img/scan-1015.jpg);
+background-size: cover;
+background-position: center;
+flex: 1;
+
+}
+
+.scan-1014{
+background-image: url(img/scan-1014.jpg);
+background-size: cover;
+background-position: center;
+flex: 1;
+
+}
+
+.scan-1013{
+background-image: url(img/scan-1013.jpg);
+background-size: cover;
+background-position: center;
+flex: 1;
+
+}
+
+
+.scan-p{
+	flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+p .lien{
+	color: #363253;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.scans a:hover{
+	color: #595194;
+	font-size: 1.2em;
+}
+
+
+
+
+
+
+
+/*PERSO*/
+
+.perso{
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color:#f07445 ;
+}
+
+.perso .contenu{
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background-color: white;
+
+}
+
+
+
+.flex-logo{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.logo{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 500px;
+	height: 50px;
+}
+
+.logo-i{
+
+}
+
+.logo-i img{
+	height: 50px ;
+
+}
+
+.perso-image{
+	height: 20vh;
+	margin: 2vh;
+}
+
+.luffy{
+	background-image: url(img/luffy.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+
+.zoro{
+	background-image: url(img/zoro.jpg);
+	background-size: cover;
+	background-position: center;
+
+
+}
+
+.nami{
+	background-image: url(img/nami.jpg);
+	background-size: cover;
+	background-position: center;
+
+
+}
+
+.ussop{
+	background-image: url(img/ussop.jpg);
+	background-size: cover;
+	background-position: center;
+
+
+}
+
+.perso h4{
+
+	height: 23vh;
+	text-align: right;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: white;
+	
+}
+
+.perso h4:hover{
+	background-color: rgba(0, 0, 0, 0);
+	color: rgba(0, 0, 0, 0);
+}
+
+
+
+/*ATTENTION*/
+
+.Attention{
+	height: 30vh;
+	background-color: #363253;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.Attention .contenu{
+	height: 26vh;
+
+}
+
+.ico img{
+	height: 80px;
+}
+
+.Attention-div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+
+.Attention p {
+	max-width: 300px;
+	text-align: center;
+
+}
+/*FOOTER*/
+
+footer {
+	height: 15vh;
+	background-color: #252525;
+	color: white;
+	font-family: sans-serif;
+}
+
+footer .contenu {
+	height: 14vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.footer img{
+	color: white;
+}
+
+
+.logo-2{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 500px;
+	height: 50px;
+}
+
+.logo-i-2{
+
+}
+
+.logo-i-2 img{
+	height: 50px ;
+}
+
+
+@media screen and (max-width:991px) {
+
+	header {
+
+	height: 25vh;
+	}
+
+	.scans{
+		height: 150vh;
+	}
+	
+	.perso{
+		height: 170vh;
+
+
+	}
+
+	.perso .contenu{
+		height: 150vh;
+	
+	}
+
+	.Attention{
+		height: 80vh;
+		display: block;
+		padding-top: 30px;
+		
+	}
+
+
+	.Attention .contenu{
+		
+	
+	}
+
+}
+
+@media screen and (max-width:650px) {
+
+	header{
+		height: 40vh;
+	}
+
+	nav ul {
+		flex-direction: column;
+	
+	}
+	nav li {
+		border-right: none;
+		border-bottom: 1px solid black;
+	}
+
+	.logo{
+	
+		flex-direction: column;
+		height: 200px;
+	}
+
+	footer{
+		height: 30vh;
+	}
+
+	footer .contenu{
+		height: 30vh;
+	}
+
+	.logo-2{
+		flex-direction: column;
+	}
+
+}
+
+
